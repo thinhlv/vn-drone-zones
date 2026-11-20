@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Drone Zones" />
+    <title>VN Drone Zones</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon-180.png" />
+    <link rel="stylesheet" href="vendor/maplibre-gl.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <div id="top">
+      <div class="searchbar">
+        <input id="search" type="search" placeholder="Search place, street, commune, or lat, lng" autocomplete="off" />
+        <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+      </div>
+      <ul id="results"></ul>
+      <div id="error" class="banner danger" hidden></div>
+    </div>
+
+    <div id="menu" class="card" hidden>
+      <label><input id="toggle-1" type="checkbox" checked /> <span class="swatch red"></span> No-fly zone</label>
+      <label><input id="toggle-2" type="checkbox" checked /> <span class="swatch amber"></span> Restricted area</label>
+      <p id="offline-status"></p>
+      <button id="download">Download Vietnam map for offline use</button>
+      <p id="data-info" class="muted"></p>
+      <p class="muted">Reference only, may be outdated or incomplete. Always check the official source cambay.mod.gov.vn before flying.</p>
+    </div>
+
+    <div id="inspect" class="card" hidden>
+      <strong id="inspect-title"></strong>
+      <div id="inspect-body"></div>
+    </div>
+
+    <button id="gps-status" class="zone-indicator" aria-label="Zone status at my location" hidden></button>
+
+    <button id="gps" aria-label="My location">&#10148;</button>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

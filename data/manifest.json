@@ -1,0 +1,75 @@
+{
+  "version": "2026-11-20T05:24:25.542Z",
+  "zones": "data/zones-a3d77edb06.json",
+  "search": "data/search-2514765d33.json",
+  "zonesDate": "2026-11-20",
+  "basemap": {
+    "version": "74d51dd694",
+    "date": "2026-11-18",
+    "totalSize": 268315525,
+    "parts": [
+      {
+        "url": "data/basemap/74d51dd694-0.bin",
+        "size": 47185920
+      },
+      {
+        "url": "data/basemap/74d51dd694-1.bin",
+        "size": 47185920
+      },
+      {
+        "url": "data/basemap/74d51dd694-2.bin",
+        "size": 47185920
+      },
+      {
+        "url": "data/basemap/74d51dd694-3.bin",
+        "size": 47185920
+      },
+      {
+        "url": "data/basemap/74d51dd694-4.bin",
+        "size": 47185920
+      },
+      {
+        "url": "data/basemap/74d51dd694-5.bin",
+        "size": 32385925
+      }
+    ]
+  },
+  "offlineAssets": [
+    "./",
+    "index.html",
+    "app.js",
+    "download-worker.js",
+    "styles.css",
+    "manifest.webmanifest",
+    "icon.svg",
+    "icon-180.png",
+    "vendor/maplibre-gl.mjs",
+    "vendor/maplibre-gl-worker.mjs",
+    "vendor/maplibre-gl.css",
+    "data/manifest.json",
+    "data/zones-a3d77edb06.json",
+    "data/search-2514765d33.json",
+    "fonts/Noto%20Sans%20Regular/0-255.pbf",
+    "fonts/Noto%20Sans%20Regular/256-511.pbf",
+    "fonts/Noto%20Sans%20Regular/768-1023.pbf",
+    "fonts/Noto%20Sans%20Regular/6144-6399.pbf",
+    "fonts/Noto%20Sans%20Regular/7680-7935.pbf",
+    "fonts/Noto%20Sans%20Regular/8192-8447.pbf",
+    "fonts/Noto%20Sans%20Medium/0-255.pbf",
+    "fonts/Noto%20Sans%20Medium/256-511.pbf",
+    "fonts/Noto%20Sans%20Medium/768-1023.pbf",
+    "fonts/Noto%20Sans%20Medium/6144-6399.pbf",
+    "fonts/Noto%20Sans%20Medium/7680-7935.pbf",
+    "fonts/Noto%20Sans%20Medium/8192-8447.pbf",
+    "fonts/Noto%20Sans%20Italic/0-255.pbf",
+    "fonts/Noto%20Sans%20Italic/256-511.pbf",
+    "fonts/Noto%20Sans%20Italic/768-1023.pbf",
+    "fonts/Noto%20Sans%20Italic/6144-6399.pbf",
+    "fonts/Noto%20Sans%20Italic/7680-7935.pbf",
+    "fonts/Noto%20Sans%20Italic/8192-8447.pbf",
+    "sprites/light.json",
+    "sprites/light.png",
+    "sprites/light@2x.json",
+    "sprites/light@2x.png"
+  ]
+}
